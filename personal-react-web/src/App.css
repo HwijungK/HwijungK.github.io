@@ -1,0 +1,23 @@
+.app {
+  display:flex;
+  flex-direction: column;
+}
+h1 {
+    text-shadow: .3vw .3vh 3px rgb(119, 152, 166);
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+h2 {
+  align-self: center;
+  font-size: 2em;
+  text-shadow: 2px 2px 2px rgb(119, 152, 166);
+}
+.project-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+  padding:10px;
+}
